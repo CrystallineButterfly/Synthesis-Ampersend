@@ -1,0 +1,16 @@
+[project]
+name = "synthesis_ampersend"
+version = "0.1.0"
+description = "A settlement bus that packages intent metadata together with payments and routing instructions so downstream tracks can share one transport layer."
+readme = "README.md"
+requires-python = ">=3.13"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ty.terminal]
+error-on-warning = true
+
+[tool.ty.environment]
+python-version = "3.13"
