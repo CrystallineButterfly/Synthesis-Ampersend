@@ -1,6 +1,6 @@
 # Ampersend Settlement Bus
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-Ampersend
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Ampersend
 - **Primary track:** Ampersend
 - **Overlap targets:** Lido MCP Server, Uniswap Agentic Finance, MetaMask Delegations, Filecoin, OpenServ, ERC-8004 Receipts
 - **Primary contract:** SettlementBus
