@@ -1,9 +1,13 @@
+
 [project]
 name = "synthesis_ampersend"
 version = "0.1.0"
 description = "A settlement bus that packages intent metadata together with payments and routing instructions so downstream tracks can share one transport layer."
 readme = "README.md"
 requires-python = ">=3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 100
