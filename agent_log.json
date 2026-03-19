@@ -7,5 +7,957 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x1f5096e6ec03b3803e68711d6707b963f5ad60ca5288beb731c1aa8e52502b68"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x74a120444d1ce4773dcad698748ba26062d181aba4bfa0b3108eb23591891acc"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "FILECOIN_API_TOKEN",
+        "FILECOIN_UPLOAD_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0x1f5096e6ec03b3803e68711d6707b963f5ad60ca5288beb731c1aa8e52502b68",
+      "simulation_hash": "0x74a120444d1ce4773dcad698748ba26062d181aba4bfa0b3108eb23591891acc",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:29:57+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x1f5096e6ec03b3803e68711d6707b963f5ad60ca5288beb731c1aa8e52502b68"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x74a120444d1ce4773dcad698748ba26062d181aba4bfa0b3108eb23591891acc"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "FILECOIN_API_TOKEN",
+        "FILECOIN_UPLOAD_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:57+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0x1f5096e6ec03b3803e68711d6707b963f5ad60ca5288beb731c1aa8e52502b68",
+      "simulation_hash": "0x74a120444d1ce4773dcad698748ba26062d181aba4bfa0b3108eb23591891acc",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:29:57+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "SettlementBus.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:45:59+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:45:59+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xb43382171fa6913cc5ae91cff0d4a9e2839cb4ff8a1af5ce9c4352119cc64df4",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:45:59+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x7e15f489936cab52153ff05f5c2af2e444ed2dd733c14e6b02004b3ff2ebef05"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:45:59+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:45:59+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0xb43382171fa6913cc5ae91cff0d4a9e2839cb4ff8a1af5ce9c4352119cc64df4",
+      "simulation_hash": "0x7e15f489936cab52153ff05f5c2af2e444ed2dd733c14e6b02004b3ff2ebef05",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_mcp_server_mcp_call.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/filecoin/0xb43382171fa6913cc5ae91cff0d4a9e2839cb4ff8a1af5ce9c4352119cc64df4.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Ampersend": "awaiting_credentials",
+        "Lido MCP Server": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:45:59+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:46:00+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:46:00+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xec35731d477197b2c1ac49f4da8abec182ac61c3c4bc870e540c9ffbf6e74666",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:46:00+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xbe7b370e98e371db42b50ee4f69415c54fff0dac77a517b5a2adb181f00f5879"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:46:00+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:46:00+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0xec35731d477197b2c1ac49f4da8abec182ac61c3c4bc870e540c9ffbf6e74666",
+      "simulation_hash": "0xbe7b370e98e371db42b50ee4f69415c54fff0dac77a517b5a2adb181f00f5879",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_mcp_server_mcp_call.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/filecoin/0xec35731d477197b2c1ac49f4da8abec182ac61c3c4bc870e540c9ffbf6e74666.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Ampersend": "awaiting_credentials",
+        "Lido MCP Server": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:46:00+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:26+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:26+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x231b10812ba40f2a937e9d24ecb9f8b7786f7454ada1863e4cd370607b360b35",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:26+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x88d85885be3164ce0d30a5212acd3deb9a91b94b6131290f294dba74aba8885f"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:26+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:26+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0x231b10812ba40f2a937e9d24ecb9f8b7786f7454ada1863e4cd370607b360b35",
+      "simulation_hash": "0x88d85885be3164ce0d30a5212acd3deb9a91b94b6131290f294dba74aba8885f",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_mcp_server_mcp_call.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/filecoin/0x231b10812ba40f2a937e9d24ecb9f8b7786f7454ada1863e4cd370607b360b35.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Ampersend": "awaiting_credentials",
+        "Lido MCP Server": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:48:26+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xf8cec21d788e0e63ab4eb9b7a04ec51944248af5a3b412107ce519c32e8644ee",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xd63c8806a55aebfa91e16bbf8672732dc4c2fbe106f7129fc7cb77b5eeebebe5"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0xf8cec21d788e0e63ab4eb9b7a04ec51944248af5a3b412107ce519c32e8644ee",
+      "simulation_hash": "0xd63c8806a55aebfa91e16bbf8672732dc4c2fbe106f7129fc7cb77b5eeebebe5",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_mcp_server_mcp_call.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/filecoin/0xf8cec21d788e0e63ab4eb9b7a04ec51944248af5a3b412107ce519c32e8644ee.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Ampersend": "awaiting_credentials",
+        "Lido MCP Server": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:48:40+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xbe2f827509f76ce768247b3a0c53cfeaf128b4971f02c202cdf9fd01a9826003",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x97dd4d99f31882e62f7456e1bac9017be09063b71ee78fdf79067f40cf0fd98b"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0xbe2f827509f76ce768247b3a0c53cfeaf128b4971f02c202cdf9fd01a9826003",
+      "simulation_hash": "0x97dd4d99f31882e62f7456e1bac9017be09063b71ee78fdf79067f40cf0fd98b",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_mcp_server_mcp_call.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/filecoin/0xbe2f827509f76ce768247b3a0c53cfeaf128b4971f02c202cdf9fd01a9826003.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Ampersend": "awaiting_credentials",
+        "Lido MCP Server": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:50:37+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:42+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:42+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x7b8b632edfdf451715d5ae5319427ca30019379ae7a9d7e7ba21a6e9fd475e9a",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:42+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x15d24bd2439010deabb7e4f693db12848da3a6fbb976ebd4a26e9dc0eccf3fd7"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:42+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:42+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0x7b8b632edfdf451715d5ae5319427ca30019379ae7a9d7e7ba21a6e9fd475e9a",
+      "simulation_hash": "0x15d24bd2439010deabb7e4f693db12848da3a6fbb976ebd4a26e9dc0eccf3fd7",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_mcp_server_mcp_call.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/filecoin/0x7b8b632edfdf451715d5ae5319427ca30019379ae7a9d7e7ba21a6e9fd475e9a.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Ampersend": "awaiting_credentials",
+        "Lido MCP Server": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:51:42+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xabfc2553c180770750009c9b64bf928d83accdb16f96188359d2f221e8abccf4",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xddf9a13fb31885c4ff6fd3c9949c6f9b8146dbe95e3fceedd2715ab1563ef6de"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0xabfc2553c180770750009c9b64bf928d83accdb16f96188359d2f221e8abccf4",
+      "simulation_hash": "0xddf9a13fb31885c4ff6fd3c9949c6f9b8146dbe95e3fceedd2715ab1563ef6de",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_mcp_server_mcp_call.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/filecoin/0xabfc2553c180770750009c9b64bf928d83accdb16f96188359d2f221e8abccf4.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Ampersend": "awaiting_credentials",
+        "Lido MCP Server": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:51:47+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:07+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "intent_queue",
+          "description": "Settlement-bound messages and routing intents.",
+          "score": 95
+        },
+        {
+          "name": "counterparties",
+          "description": "Target services and payment endpoints.",
+          "score": 90
+        },
+        {
+          "name": "delivery_policy",
+          "description": "Allowlists, retries, and signed envelopes.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transport proofs and submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:07+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x42cee98fd52baa4086226d06a8e70adf619c738fcfe60ff8730879c6a84dcf57",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:07+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x0caca35c25ad71d244ab6e4c37c27f76011a2ba8da486879e8cc670ad1510956"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:07+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:07+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Ampersend Settlement Bus",
+      "track": "Ampersend",
+      "plan_id": "0x42cee98fd52baa4086226d06a8e70adf619c738fcfe60ff8730879c6a84dcf57",
+      "simulation_hash": "0x0caca35c25ad71d244ab6e4c37c27f76011a2ba8da486879e8cc670ad1510956",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_mcp_server_mcp_call.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/filecoin/0x42cee98fd52baa4086226d06a8e70adf619c738fcfe60ff8730879c6a84dcf57.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Ampersend": "awaiting_credentials",
+        "Lido MCP Server": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:52:07+00:00"
+    }
   }
 ]
