@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `SettlementBus`
+- live-only partners: Ampersend, Uniswap, OpenServ
+- offline-prepared partners: Lido MCP Server (prepared_contract_call), MetaMask Delegations (prepared_contract_call), Filecoin (prepared_filecoin_bundle), ERC-8004 Receipts (prepared_contract_call)
+- highest-sensitivity actions: metamask_delegations_delegate_scope
+- latest verification artifact: `artifacts/verification/0x42cee98fd52baa4086226d06a8e70adf619c738fcfe60ff8730879c6a84dcf57.json`
+
 ## Current posture
 
 ### Good

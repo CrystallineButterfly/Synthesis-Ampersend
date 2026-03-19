@@ -5,7 +5,7 @@
 - **Category:** transport
 - **Primary contract:** `SettlementBus`
 - **Primary module:** `ampersend_bus`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,31 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:07+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** Lido MCP Server (prepared_contract_call), MetaMask Delegations (prepared_contract_call), Filecoin (prepared_filecoin_bundle), ERC-8004 Receipts (prepared_contract_call)
+- **Live credential blockers:** Ampersend, Uniswap, OpenServ
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `metamask_delegations_delegate_scope` (MetaMask Delegations, high)
+
+## Live blocker details
+
+- **Ampersend** — AMPERSEND_API_KEY, AMPERSEND_PAYMENT_URL — https://docs.ampersend.ai/
+- **Uniswap** — UNISWAP_API_KEY, UNISWAP_QUOTE_URL — https://developers.uniswap.org/
+- **OpenServ** — OPENSERV_API_KEY, OPENSERV_AGENT_URL — https://docs.openserv.ai/
+
+## Latest evidence artifacts
+
+- `artifacts/onchain_intents/lido_mcp_server_mcp_call.json`
+- `artifacts/onchain_intents/metamask_delegations_delegate_scope.json`
+- `artifacts/filecoin/0x42cee98fd52baa4086226d06a8e70adf619c738fcfe60ff8730879c6a84dcf57.json`
+- `artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json`
 
 ## Security controls
 
